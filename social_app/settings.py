@@ -115,8 +115,8 @@ LOGIN_REDIRECT_URL = 'home'
 LOGOUT_URL = 'logout'
 LOGOUT_REDIRECT_URL = 'login'
 
-SOCIAL_AUTH_LINKEDIN_OAUTH2_KEY = '774xehqey2mbzz'  # Client ID
-SOCIAL_AUTH_LINKEDIN_OAUTH2_SECRET = 'VSioMFj51VpB3ulH'  # Client Secret
+SOCIAL_AUTH_LINKEDIN_OAUTH2_KEY = 'client_id'  # Client ID
+SOCIAL_AUTH_LINKEDIN_OAUTH2_SECRET = 'client_secret'  # Client Secret
 SOCIAL_AUTH_LINKEDIN_OAUTH2_SCOPE = ['r_liteprofile', 'r_emailaddress','w_member_social']
 SOCIAL_AUTH_LINKEDIN_OAUTH2_FIELD_SELECTORS = ['email-address', 'formatted-name', 'public-profile-url', 'picture-url']
 SOCIAL_AUTH_LINKEDIN_OAUTH2_EXTRA_DATA = [
